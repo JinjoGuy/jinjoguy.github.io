@@ -199,19 +199,19 @@ aade.equivalenceTable = {
 	},
 	49: {
 		'original': 'TV Crew',
-		'adapted': 'Equipe'
+		'adapted': 'Equipe da TV'
 	},
 	50: {
 		'original': 'Bodyguard',
-		'adapted': 'Guarda'
+		'adapted': 'Segurança'
 	},
 	51: {
 		'original': 'Prisoner',
-		'adapted': 'Preso'
+		'adapted': 'Prisioneiro'
 	},
 	52: {
 		'original': 'Astique',
-		'adapted': 'Astique'
+		'adapted': 'Dali'
 	},
 	53: {
 		'original': 'Driver',

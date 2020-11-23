@@ -1,7 +1,7 @@
 /* Javascript library containing equivalence table for AAI2 */
 
 aade.equivalenceTable = {
-	0: {
+	43605, 21909: {
 		'original': '---',
 		'adapted': '---'
 	},
@@ -9,7 +9,7 @@ aade.equivalenceTable = {
 		'original': '---',
 		'adapted': '---'
 	},
-	2: {
+	21930, 21930: {
 		'original': 'Edgeworth',
 		'adapted': 'Spada'
 	},
@@ -49,7 +49,7 @@ aade.equivalenceTable = {
 		'original': 'Courtney',
 		'adapted': 'Cortês'
 	},
-	12: {
+	21923, 21920: {
 		'original': 'Debeste',
 		'adapted': 'Omélio'
 	},

@@ -240,9 +240,5 @@ aade.equivalenceTable = {
 	59: {
 		'original': 'Shopkeeper',
 		'adapted': 'Vendedor'
-	},
-	60: {
-		'original': '???',
-		'adapted': '???'
 	}
 };

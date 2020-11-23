@@ -1607,6 +1607,7 @@ function aade(){
 		var $radioGameFieldAA3 = $('#config-game-field-aa3');
 		var $radioGameFieldAA4 = $('#config-game-field-aa4');
 		var $radioGameFieldAAI1 = $('#config-game-field-aai1');
+		var $radioGameFieldAAI2 = $('#config-game-field-aai2');
 		var $radioNameTypeOriginal = $('#config-name-type-original');
 		var $radioNameTypeAdapted = $('#config-name-type-adapted');
 		var $radioPlatform3DS = $('#config-platform-3ds');
@@ -1620,8 +1621,10 @@ function aade(){
 		var $divColorpickerFields = $('div.colorpicker-component');
 		
 		// Checking default options for each field
-		if(this.configs.game == 'aai1'){
-			$radioGameFieldAAI1.prop('checked', true);
+		if(this.configs.game == 'aai2'){
+			$radioGameFieldAAI2.prop('checked', true);
+		} else if(this.configs.game == 'aai1'){
+			$radioGameFieldAAI1.prop('checked', true);			
 		} else if(this.configs.game == 'aa4'){
 			$radioGameFieldAA4.prop('checked', true);
 		} else if(this.configs.game == 'aa3'){
@@ -1685,6 +1688,7 @@ function aade(){
 		var $radioGameFieldAA3 = $('#config-game-field-aa3');
 		var $radioGameFieldAA4 = $('#config-game-field-aa4');
 		var $radioGameFieldAAI1 = $('#config-game-field-aai1');
+		var $radioGameFieldAAI2 = $('#config-game-field-aai2');
 		var $radioNameTypeOriginal = $('#config-name-type-original');
 		var $radioNameTypeAdapted = $('#config-name-type-adapted');
 		var $radioPlatform3DS = $('#config-platform-3ds');
@@ -1698,8 +1702,10 @@ function aade(){
 		var $divColorpickerFields = $('div.colorpicker-component');
 		
 		// Checking default options for each field
-		if(this.defaultConfigs.game == 'aai1'){
-			$radioGameFieldAAI1.prop('checked', true);
+		if(this.defaultConfigs.game == 'aai2'){
+			$radioGameFieldAAI2.prop('checked', true);
+		} else if(this.defaultConfigs.game == 'aai1'){
+			$radioGameFieldAAI1.prop('checked', true);	
 		} else if(this.defaultConfigs.game == 'aa4'){
 			$radioGameFieldAA4.prop('checked', true);
 		} else if(this.defaultConfigs.game == 'aa3'){
